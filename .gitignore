@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+maimen_fit_card.html
+demo_card.html
+*.token
+.env
+decl.json
