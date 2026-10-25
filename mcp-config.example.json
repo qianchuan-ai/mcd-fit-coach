@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcd-mcp": {
+      "type": "streamablehttp",
+      "url": "https://mcp.mcd.cn",
+      "headers": {
+        "Authorization": "Bearer ${MCD_MCP_TOKEN}"
+      }
+    }
+  },
+  "_comment": "示例配置，仅使用环境变量占位符，与官方 mcd-mcp-server 指南一致。请在 open.mcd.cn/mcp 激活 MCP Token 后，将 MCD_MCP_TOKEN 设置为你的真实 Token（不要提交到仓库）。"
+}
